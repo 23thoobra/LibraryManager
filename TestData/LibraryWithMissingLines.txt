@@ -1,0 +1,14 @@
+BOOK|B101|The Hobbit|Fiction|True|J.R.R. Tolkien|310
+BOOK|B102|A Brief History of Time|Science|False|Stephen Hawking|212
+DVD|D201|Cosmos|Science|False|780
+BOOK|B900|Missing Fields|Fiction|False
+BOOK|B901|Bad Pages|History|False|Someone|lots
+DVD|D900|Negative Runtime|Science|False|-30
+BOOK|B902|Wrong Category|Poetry|False|Someone|120
+MAGAZINE|M100|Unknown Type|Science|False|40
+
+BOOK|B903||Fiction|False|No Title|99
+DVD|D901|Bad Flag|History|maybe|90
+BOOK|B101|Duplicate Id|Fiction|False|Someone|50
+this line is just garbage
+DVD|D202|Apollo 13|History|True|140
