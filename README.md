@@ -1,10 +1,10 @@
 # LibraryManager
 C# .NET 10 console app that manages a campus library's books and DVDs. Uses an abstract class, inheritance, an interface and an enum, with Dictionary/List collections, a LINQ report, TryParse and exception-based input handling, and async save/load to a text file. 
 
-CIS 483/583 - Homework 5 - LibraryManager
+==========================================================================
+CIS 483/583 - LibraryManager
 Name: Braden Thooft
 Github Repository - https://github.com/23thoobra/LibraryManager
-==========================================================================
 
 A .NET 10 console app that tracks books and DVDs a campus library lends out.
 Items are saved to library.txt on exit and loaded again on the next start.
