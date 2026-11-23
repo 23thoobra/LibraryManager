@@ -10,10 +10,10 @@ A .NET 10 console app that tracks books and DVDs a campus library lends out.
 Items are saved to library.txt on exit and loaded again on the next start.
 
 Optional test data (in TestData/):
-  - demo_input.txt              every menu path, including invalid input.
+  - DemoInput.txt              every menu path, including invalid input.
                                 Run it with:  Get-Content TestData\DemoInput.txt | dotnet run
                                 (start without a library.txt for the same output)
-  - library_with_bad_lines.txt  4 good lines + 9 bad ones. Copy it to library.txt
+  - LibraryWithMissingLines.txt  4 good lines + 9 bad ones. Copy it to library.txt
                                 and run the app: the good items load, each bad
                                 line is listed as skipped, nothing crashes.
 
