@@ -3,7 +3,7 @@ C# .NET 10 console app that manages a campus library's books and DVDs. Uses an a
 
 CIS 483/583 - Homework 5 - LibraryManager
 Name: Braden Thooft
-Github Repository - 
+Github Repository - https://github.com/23thoobra/LibraryManager
 ==========================================================================
 
 A .NET 10 console app that tracks books and DVDs a campus library lends out.
