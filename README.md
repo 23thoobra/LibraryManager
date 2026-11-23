@@ -20,28 +20,28 @@ Optional test data (in TestData/):
 
 FILES AND CLASSES
 -----------------
-Category.cs            enum Category { Fiction, Science, Technology, History }
-IBorrowable.cs         interface with void Borrow() and void Return()
-LibraryItem.cs         abstract base class, implements IBorrowable
+- Category.cs            enum Category { Fiction, Science, Technology, History }
+- IBorrowable.cs         interface with void Borrow() and void Return()
+- LibraryItem.cs         abstract base class, implements IBorrowable
                          - Id (init-only), Title, Category, IsBorrowed (private set)
                          - abstract string Describe(), abstract string ToFileLine()
                          - Borrow() throws InvalidOperationException if already borrowed
                          - Return() throws InvalidOperationException if not borrowed
                          - validation: empty Id/Title -> ArgumentException
-Book.cs                subclass: adds Author and Pages; calls base(...);
+- Book.cs                subclass: adds Author and Pages; calls base(...);
                        overrides Describe(); Pages must be positive (ArgumentException)
-Dvd.cs                 subclass: adds Minutes; calls base(...);
+- Dvd.cs                 subclass: adds Minutes; calls base(...);
                        overrides Describe(); Minutes must be positive (ArgumentException)
-DuplicateIdException.cs custom exception thrown when an Id is already in use
-Library.cs             Dictionary<string, LibraryItem> keyed by Id (case-insensitive),
+- DuplicateIdException.cs custom exception thrown when an Id is already in use
+- Library.cs             Dictionary<string, LibraryItem> keyed by Id (case-insensitive),
                        rejects duplicates with TryAdd; List<string> history of actions
                        ("Added B101", "Borrowed B101", "Returned B101", ...)
-LibraryFile.cs         async SaveAsync (File.WriteAllLinesAsync) and LoadAsync
+- LibraryFile.cs         async SaveAsync (File.WriteAllLinesAsync) and LoadAsync
                        (File.ReadAllLinesAsync); TryParseLine skips bad lines
-ReportRow.cs           (bonus) record type for one row of the report
-Helpers.cs             (bonus) generic T Largest<T>(...) where T : IComparable<T>,
+- ReportRow.cs           (bonus) record type for one row of the report
+- Helpers.cs             (bonus) generic T Largest<T>(...) where T : IComparable<T>,
                        plus Fit() to shorten long titles so columns stay aligned
-Program.cs             async Main, do-while menu with a switch statement,
+- Program.cs             async Main, do-while menu with a switch statement,
                        input helpers using int.TryParse, try/catch blocks, the report
 
 
