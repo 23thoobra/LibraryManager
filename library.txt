@@ -1,2 +1,0 @@
-BOOK|B101|Dune|Fiction|True|Frank Herbert|412
-DVD|D201|Cosmos|Science|False|780
